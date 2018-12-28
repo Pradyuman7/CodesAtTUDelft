@@ -235,9 +235,6 @@ class ArrayQueue {
 
         int[] nArr = new int[capacity];
 
-/*      for (int i = 0; i < popped; i++)
-            nArr[i] = arr[i];*/ //Not required as popped is always 0
-
         for (int i = popped + 1; i < size; i++)
             nArr[i - 1] = arr[i];
 
