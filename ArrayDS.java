@@ -243,8 +243,6 @@ class ArrayQueue {
 
         arr = nArr;
 
-        //popped++; // not required as we remove first element
-
     } 
 	
 	public boolean isEmpty() {
